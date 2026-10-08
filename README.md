@@ -2,7 +2,20 @@
 
 ## Română
 
-Începe cu `START.html`, deschis în browser, şi alege Română.
+Sursa comună este [BBS-bit-byte-starter](https://github.com/antonioclim/BBS-bit-byte-starter).
+
+**Dacă vrei să citeşti ghidurile înainte de seminar:** în pagina GitHub a sursei
+alege **Code → Download ZIP**, extrage toate fişierele şi deschide `START.html`
+din folderul extras, apoi alege Română. Un fişier HTML deschis în pagina GitHub
+este afişat ca sursă; ghidul şi aplicaţia se folosesc din folderul local.
+Această descărcare este pentru orientare şi încercarea aplicaţiei.
+
+**Când începi activitatea cu Git:** în sursa comună alege **Use this template →
+Create a new repository**, selectează contul tău şi urmează indicaţia grupei
+pentru vizibilitate. Apoi clonează **adresa repository-ului tău** în VS Code,
+conform S05. Deschide `START.html` din copia clonată şi continuă în acea copie.
+Acesta este proiectul în care vei publica modificările din toate cele trei seminarii.
+
 Ghidurile explică scopul fiecărui pas, operaţia de făcut şi rezultatul pe care trebuie să-l vezi.
 
 - **S05:** preiei proiectul, completezi afişarea hexazecimală şi publici prima modificare.
@@ -25,7 +38,20 @@ Quizurile verifică înţelegerea. Simplul punctaj sau depunerea unei adrese nu 
 
 ## English (UK)
 
-Open `START.html` in a browser and choose English.
+The shared source is [BBS-bit-byte-starter](https://github.com/antonioclim/BBS-bit-byte-starter).
+
+**To read the guides before class:** on the source repository’s GitHub page,
+choose **Code → Download ZIP**, extract all files and open `START.html`
+from the extracted folder, then choose English. An HTML file opened on GitHub
+is displayed as source; use the local folder to open the guide and application.
+This download is for orientation and trying the application.
+
+**When starting the Git activity:** on the shared source, choose **Use this
+template → Create a new repository**, select your own account and follow the
+group’s visibility instruction. Then clone **your own repository URL** in
+VS Code as explained in S05. Open `START.html` from that clone and continue
+in that copy. This is where you will publish your changes across all three seminars.
+
 The guides explain the purpose of each step, what to do and the result you should see.
 
 - **S05:** take over the project, complete hexadecimal output and publish your first change.
