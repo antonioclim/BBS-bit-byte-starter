@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Packaging verification metadata; not part of the published teaching project.
+MANIFEST_SHA256.json
