@@ -34,6 +34,7 @@ Testele se execută local; nu presupun un rezultat automat pe GitHub.
 Contribuţie maximă: Q05 **0,20**, Q06 **0,30**, Q07 **0,50**, în total **1 punct**.
 Quizurile sunt individuale, fără AI sau ajutorul colegilor; fişa comună de referinţă este permisă.
 Tema finală Moodle este obligatorie, prin text online, fără notă separată.
+Depunerea ei nu condiţionează accesul la Q07.
 Quizurile verifică înţelegerea. Simplul punctaj sau depunerea unei adrese nu certifică implementarea.
 
 ## English (UK)
@@ -70,4 +71,5 @@ Tests run locally; they do not imply an automatic test result on GitHub.
 Maximum contribution: Q05 **0.20**, Q06 **0.30**, Q07 **0.50**, totalling **1 mark**.
 Quizzes are individual, without AI or help from classmates; the common reference sheet is allowed.
 The final Moodle assignment is compulsory, submitted as online text and has no separate grade.
+Submitting it is not a condition for access to Q07.
 Quizzes assess understanding. A score or a submitted URL alone does not certify the implementation.
