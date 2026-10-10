@@ -1,4 +1,4 @@
-# BTI · Bit & Byte Lab · S01–S07 · v2.0.0
+# BTI · Bit & Byte Lab · S01–S07 · v2.0.1
 
 ## Română
 
@@ -38,15 +38,28 @@ Lecțiile complete se află în [LESSONS/RO](LESSONS/RO/index.html). [GUIDES/RO]
 
 Aplicație: [PROJECT/index.html](PROJECT/index.html?lang=ro). Teste: [PROJECT/tests.html](PROJECT/tests.html?lang=ro&stage=baseline). Începi cu **baseline**, apoi alegi etapa curentă. Proiectul inițial are două funcții de completat și problema investigată în S06; rezultatele incomplete din etapele viitoare sunt intenționate. Nu sunt necesare un server local, npm sau biblioteci suplimentare. Rezultatele locale nu sunt trimise automat în Moodle.
 
-### Evaluarea S05–S07
+### Evaluarea S01–S07
 
-Q05: **10 minute, maximum 0,20 puncte reale**. Q06: **10 minute, maximum 0,30**. Q07: **15 minute, maximum 0,50**. Totalul este de **maximum un punct real**, numai pentru S05–S07. Acest pachet nu introduce punctaje noi pentru S01–S04.
+Cele șapte quizuri din Moodle valorează împreună **maximum trei puncte reale**: Q01–Q04 contribuie cu maximum două puncte, iar Q05–Q07 cu maximum un punct. **Q01, Q02, Q03 și Q04 au fiecare 11 întrebări, durează 10 minute și valorează maximum 0,50 puncte reale.**
 
-Quizurile sunt individuale, fără AI sau ajutorul colegilor. Este permisă numai fișa comună de referință anunțată în curs; lecția extinsă și instrumentele de lucru se închid. Fișa finală cu **zece rubrici** se depune în Moodle ca **text online**, este obligatorie și nu are notă separată. Depunerea, completitudinea sau aprobarea ei nu condiționează accesul la Q07. Urmezi intervalele comunicate în curs.
+| Activitate | Durată | Maximum puncte reale |
+| --- | --- | --- |
+| Q01 | 10 minute | 0,50 |
+| Q02 | 10 minute | 0,50 |
+| Q03 | 10 minute | 0,50 |
+| Q04 | 10 minute | 0,50 |
+| Q05 | 10 minute | 0,20 |
+| Q06 | 10 minute | 0,30 |
+| Q07 | 15 minute | 0,50 |
+| **Total Q01–Q07** | — | **3,00** |
+
+Întrebările de exersare și verificările locale din lecțiile S01–S04 te ajută să înveți și sunt distincte de quizurile Q01–Q04 din Moodle. Rezultatele locale nu sunt trimise automat în Moodle. Fiecare quiz are propriul interval, comunicat în curs.
+
+La Q05, Q06 și Q07 lucrezi individual, fără AI sau ajutorul colegilor. Este permisă numai fișa comună de referință anunțată în curs; lecția extinsă și instrumentele de lucru se închid. Fișa finală cu **zece rubrici** se depune în Moodle ca **text online**, este obligatorie și nu are notă separată. Depunerea, completitudinea sau aprobarea ei nu condiționează accesul la Q07. Urmezi intervalele comunicate în curs.
 
 Quizurile verifică înțelegerea. Punctajul sau o adresă depusă nu certifică, singure, implementarea și reproducerea proiectului.
 
-**Versiuni:** v2.0.0 este ediția întregului repository. Fiecare lecție își păstrează versiunea proprie în numele fișierului. Ghidurile rapide păstrează reperul v0.4.0 al proiectului inițial; aceasta nu este o instrucțiune de a descărca o ediție veche.
+**Versiuni:** v2.0.1 este ediția întregului repository. Fiecare lecție își păstrează versiunea proprie în numele fișierului. Ghidurile rapide păstrează reperul v0.4.0 al proiectului inițial; aceasta nu este o instrucțiune de a descărca o ediție veche.
 
 ## English (UK)
 
@@ -86,12 +99,25 @@ Complete lessons are in [LESSONS/EN_GB](LESSONS/EN_GB/index.html). [GUIDES/EN_GB
 
 Application: [PROJECT/index.html](PROJECT/index.html?lang=en). Tests: [PROJECT/tests.html](PROJECT/tests.html?lang=en&stage=baseline). Start with **baseline**, then choose the current stage. The starter has two functions to complete and the problem investigated in S06; incomplete results in future stages are intentional. No local server, npm or additional libraries are required. Local results are not automatically submitted to Moodle.
 
-### S05–S07 assessment
+### S01–S07 assessment
 
-Q05: **10 minutes, maximum 0.20 real points**. Q06: **10 minutes, maximum 0.30**. Q07: **15 minutes, maximum 0.50**. The total is **at most one real point**, for S05–S07 only. This package introduces no new marks for S01–S04.
+The seven Moodle quizzes together contribute **at most three real points**: at most two points from Q01–Q04 and at most one point from Q05–Q07. **Q01, Q02, Q03 and Q04 each contain 11 questions, last 10 minutes and contribute at most 0.50 real points.**
 
-Quizzes are individual, without AI or help from classmates. Only the shared reference sheet announced in the course is permitted; close the extended lesson and working tools. The final **ten-field record** is submitted in Moodle as **online text**, is compulsory and has no separate grade. Submission, completeness or approval of the record is not a condition for access to Q07. Follow the windows announced in the course.
+| Activity | Duration | Maximum real points |
+| --- | --- | --- |
+| Q01 | 10 minutes | 0.50 |
+| Q02 | 10 minutes | 0.50 |
+| Q03 | 10 minutes | 0.50 |
+| Q04 | 10 minutes | 0.50 |
+| Q05 | 10 minutes | 0.20 |
+| Q06 | 10 minutes | 0.30 |
+| Q07 | 15 minutes | 0.50 |
+| **Total Q01–Q07** | — | **3.00** |
+
+Practice questions and local checks in the S01–S04 lessons help you learn and are separate from Moodle quizzes Q01–Q04. Local results are not automatically submitted to Moodle. Each quiz has its own window announced in the course.
+
+In Q05, Q06 and Q07 work individually without AI or help from classmates. Only the shared reference sheet announced in the course is permitted; close the extended lesson and working tools. The final **ten-field record** is submitted in Moodle as **online text**, is compulsory and has no separate grade. Submission, completeness or approval of the record is not a condition for access to Q07. Follow the windows announced in the course.
 
 Quizzes assess understanding. A score or submitted URL alone does not certify the implementation and reproduction of the project.
 
-**Versions:** v2.0.0 is the edition of the whole repository. Each lesson retains its own version in its filename. Quick guides retain the v0.4.0 reference to the original project; this is not an instruction to download an earlier edition.
+**Versions:** v2.0.1 is the edition of the whole repository. Each lesson retains its own version in its filename. Quick guides retain the v0.4.0 reference to the original project; this is not an instruction to download an earlier edition.
