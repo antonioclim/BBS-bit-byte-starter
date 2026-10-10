@@ -2,3 +2,5 @@
 
 button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,.tablewrap:focus-visible,main:focus-visible{outline:3px solid #946600;outline-offset:3px}
 .hero button:focus-visible,.hero a:focus-visible,.hero summary:focus-visible,.hero input:focus-visible{outline-color:#fff}
+
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}

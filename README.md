@@ -1,4 +1,4 @@
-# BTI · Bit & Byte Lab · S01–S07 · v2.0.1
+# BTI · Bit & Byte Lab · S01–S07 · v2.0.2
 
 ## Română
 
@@ -25,6 +25,8 @@ Păstrează împreună `START.html`, `LESSONS/`, `GUIDES/` și `PROJECT/`. Desc�
 **Dacă ai început deja proiectul**, păstrează repository-ul propriu, commiturile și însemnările. Nu îl înlocui și nu crea un alt repository din șablon pentru a primi lecțiile noi. Le poți citi separat din arhiva completă. Un `pull` din repository-ul tău preia modificările publicate acolo, fără a aduce automat schimbările ulterioare ale șablonului.
 
 ### Parcursul
+
+Planurile de lucru sunt estimări care urmează să fie verificate cu grupele. La S01–S04, cele 10 minute ale quizului sunt incluse în cele 90 de minute; pentru explicații și exersare rămân 80 de minute. Intervalul quizului este cel anunțat în Moodle. Cazurile proprii și indiciile se folosesc în etapele existente, fără teme obligatorii suplimentare.
 
 - **S01:** baze de numerație, operații binare și limitele reprezentării.
 - **S02:** numere cu semn, virgulă fixă și numere normale binary32.
@@ -59,7 +61,7 @@ La Q05, Q06 și Q07 lucrezi individual, fără AI sau ajutorul colegilor. Este p
 
 Quizurile verifică înțelegerea. Punctajul sau o adresă depusă nu certifică, singure, implementarea și reproducerea proiectului.
 
-**Versiuni:** v2.0.1 este ediția întregului repository. Fiecare lecție își păstrează versiunea proprie în numele fișierului. Ghidurile rapide păstrează reperul v0.4.0 al proiectului inițial; aceasta nu este o instrucțiune de a descărca o ediție veche.
+**Versiuni:** v2.0.2 este ediția întregului repository. Numele fișierelor lecțiilor se păstrează pentru ca linkurile existente să funcționeze. Conținutul lor a fost revizuit în ediția v2.0.2; pentru a identifica materialul folosit, notează ediția repository-ului. Ghidurile rapide păstrează reperul v0.4.0 al proiectului inițial; aceasta nu este o instrucțiune de a descărca o ediție veche.
 
 ## English (UK)
 
@@ -86,6 +88,8 @@ Keep `START.html`, `LESSONS/`, `GUIDES/` and `PROJECT/` together. A ZIP download
 **If you have already started the project**, retain your personal repository, commits and notes. Do not replace it or create another template-derived repository to obtain the new lessons. You can read them separately from the complete archive. A `pull` from your own repository retrieves changes published there without automatically importing later changes to the template.
 
 ### The route
+
+The working plans are estimates to be checked with the groups. In S01–S04, the quiz’s 10 minutes are included in the 90-minute seminar, leaving 80 minutes for explanation and practice. Use the quiz window announced in Moodle. Own cases and hints fit within existing stages, without additional compulsory homework.
 
 - **S01:** number bases, binary operations and representation limits.
 - **S02:** signed numbers, fixed point and normal binary32 numbers.
@@ -120,4 +124,4 @@ In Q05, Q06 and Q07 work individually without AI or help from classmates. Only t
 
 Quizzes assess understanding. A score or submitted URL alone does not certify the implementation and reproduction of the project.
 
-**Versions:** v2.0.1 is the edition of the whole repository. Each lesson retains its own version in its filename. Quick guides retain the v0.4.0 reference to the original project; this is not an instruction to download an earlier edition.
+**Versions:** v2.0.2 is the edition of the whole repository. Lesson filenames are retained so that existing links continue to work. Their content has been revised in edition v2.0.2; record the repository edition to identify the material used. Quick guides retain the v0.4.0 reference to the original project; this is not an instruction to download an earlier edition.
