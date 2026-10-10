@@ -1,75 +1,97 @@
-# BTI · Bit & Byte Lab · Student kit / Pachet pentru studenţi · v0.4.0
+# BTI · Bit & Byte Lab · S01–S07 · v2.0.0
 
 ## Română
 
-Sursa comună este [BBS-bit-byte-starter](https://github.com/antonioclim/BBS-bit-byte-starter).
+Acest pachet pentru studenții din anul I, semestrul I, ASE București, Facultatea CSIE, reunește parcursul complet al celor **șapte seminarii de 90 de minute**, în română și engleză. Disciplina are 14 cursuri și un seminar la două săptămâni didactice; datele grupei sunt publicate în Moodle.
 
-**Dacă vrei să citeşti ghidurile înainte de seminar:** în pagina GitHub a sursei
-alege **Code → Download ZIP**, extrage toate fişierele şi deschide `START.html`
-din folderul extras, apoi alege Română. Un fişier HTML deschis în pagina GitHub
-este afişat ca sursă; ghidul şi aplicaţia se folosesc din folderul local.
-Această descărcare este pentru orientare şi încercarea aplicaţiei.
+**Punctul de pornire este [START.html](START.html).** Pe GitHub, un fișier HTML este afișat ca sursă. Pentru a folosi lecțiile și aplicația, deschide fișierele din folderul local.
 
-**Când începi activitatea cu Git:** în sursa comună alege **Use this template →
-Create a new repository**, selectează contul tău şi urmează indicaţia grupei
-pentru vizibilitate. Apoi clonează **adresa repository-ului tău** în VS Code,
-conform S05. Deschide `START.html` din copia clonată şi continuă în acea copie.
-Acesta este proiectul în care vei publica modificările din toate cele trei seminarii.
+### Pentru citire și încercarea aplicației
 
-Ghidurile explică scopul fiecărui pas, operaţia de făcut şi rezultatul pe care trebuie să-l vezi.
+1. În pagina repository-ului alegi **Code → Download ZIP**.
+2. Extragi toate fișierele și folderele din arhivă.
+3. Deschizi `START.html` în browser, apoi alegi **Română**.
+4. Din pagina limbii alegi seminarul și lecția interactivă sau varianta pentru citire.
 
-- **S05:** preiei proiectul, completezi afişarea hexazecimală şi publici prima modificare.
-- **S06:** investighezi interpretarea cu semn, verifici o explicaţie Gemini şi integrezi remedierea.
-- **S07:** completezi paritatea pentru varianta atribuită, verifici proiectul dintr-o clonă nouă şi îl predai.
+Păstrează împreună `START.html`, `LESSONS/`, `GUIDES/` și `PROJECT/`. Descărcarea ZIP permite citirea și încercarea aplicației; nu oferă istoricul Git al proiectului tău.
 
-Foloseşti acelaşi repository propriu în toate cele trei seminarii de 90 de minute.
-Pentru lucru cu Git, creezi repository-ul tău din şablonul comunicat în curs şi clonezi **adresa ta**.
-O arhivă extrasă permite deschiderea fişierelor, dar nu înlocuieşte aceşti paşi.
+### Când începi lucrul cu Git în S05
 
-Aplicaţie: `PROJECT/index.html`. Teste: `PROJECT/tests.html`.
-Păstrează structura `PROJECT/`, `GUIDES/` şi `START.html` în acelaşi folder.
-Nu sunt necesare un server local, npm sau biblioteci suplimentare.
-Testele se execută local; nu presupun un rezultat automat pe GitHub.
+1. Din [șablonul comun BBS-bit-byte-starter](https://github.com/antonioclim/BBS-bit-byte-starter) alegi **Use this template → Create a new repository**.
+2. Selectezi contul tău și urmezi indicația grupei pentru nume și vizibilitate.
+3. Clonezi în VS Code **adresa repository-ului tău**. Pașii detaliați sunt în lecția S05.
+4. Deschizi `START.html` din clona ta și continui în același repository în S05–S07.
 
-Contribuţie maximă: Q05 **0,20**, Q06 **0,30**, Q07 **0,50**, în total **1 punct**.
-Quizurile sunt individuale, fără AI sau ajutorul colegilor; fişa comună de referinţă este permisă.
-Tema finală Moodle este obligatorie, prin text online, fără notă separată.
-Depunerea ei nu condiţionează accesul la Q07.
-Quizurile verifică înţelegerea. Simplul punctaj sau depunerea unei adrese nu certifică implementarea.
+**Dacă ai început deja proiectul**, păstrează repository-ul propriu, commiturile și însemnările. Nu îl înlocui și nu crea un alt repository din șablon pentru a primi lecțiile noi. Le poți citi separat din arhiva completă. Un `pull` din repository-ul tău preia modificările publicate acolo, fără a aduce automat schimbările ulterioare ale șablonului.
+
+### Parcursul
+
+- **S01:** baze de numerație, operații binare și limitele reprezentării.
+- **S02:** numere cu semn, virgulă fixă și numere normale binary32.
+- **S03:** paritate, Hamming și CRC, cu limitele fiecărui control.
+- **S04:** logică booleană și o introducere scurtă în arhitectură.
+- **S05:** preiei proiectul, completezi afișarea hexazecimală, verifici și publici prima modificare.
+- **S06:** formulezi o ipoteză, verifici o explicație Gemini sau alternativa pregătită și integrezi remedierea.
+- **S07:** implementezi individual paritatea atribuită, verifici versiunea dintr-o clonă nouă a repository-ului tău și completezi fișa finală.
+
+Lecțiile complete se află în [LESSONS/RO](LESSONS/RO/index.html). [GUIDES/RO](GUIDES/RO/index.html) conține ghidurile rapide pentru aceiași pași S05–S07 și fișa comună de referință. Ghidurile rapide nu adaugă activități sau cerințe noi.
+
+Aplicație: [PROJECT/index.html](PROJECT/index.html?lang=ro). Teste: [PROJECT/tests.html](PROJECT/tests.html?lang=ro&stage=baseline). Începi cu **baseline**, apoi alegi etapa curentă. Proiectul inițial are două funcții de completat și problema investigată în S06; rezultatele incomplete din etapele viitoare sunt intenționate. Nu sunt necesare un server local, npm sau biblioteci suplimentare. Rezultatele locale nu sunt trimise automat în Moodle.
+
+### Evaluarea S05–S07
+
+Q05: **10 minute, maximum 0,20 puncte reale**. Q06: **10 minute, maximum 0,30**. Q07: **15 minute, maximum 0,50**. Totalul este de **maximum un punct real**, numai pentru S05–S07. Acest pachet nu introduce punctaje noi pentru S01–S04.
+
+Quizurile sunt individuale, fără AI sau ajutorul colegilor. Este permisă numai fișa comună de referință anunțată în curs; lecția extinsă și instrumentele de lucru se închid. Fișa finală cu **zece rubrici** se depune în Moodle ca **text online**, este obligatorie și nu are notă separată. Depunerea, completitudinea sau aprobarea ei nu condiționează accesul la Q07. Urmezi intervalele comunicate în curs.
+
+Quizurile verifică înțelegerea. Punctajul sau o adresă depusă nu certifică, singure, implementarea și reproducerea proiectului.
+
+**Versiuni:** v2.0.0 este ediția întregului repository. Fiecare lecție își păstrează versiunea proprie în numele fișierului. Ghidurile rapide păstrează reperul v0.4.0 al proiectului inițial; aceasta nu este o instrucțiune de a descărca o ediție veche.
 
 ## English (UK)
 
-The shared source is [BBS-bit-byte-starter](https://github.com/antonioclim/BBS-bit-byte-starter).
+This student package for year 1, semester 1, at the Bucharest University of Economic Studies, CSIE, brings together all **seven 90-minute seminars**, in Romanian and English. The subject has 14 lectures and a seminar every two teaching weeks; your group’s dates are published in Moodle.
 
-**To read the guides before class:** on the source repository’s GitHub page,
-choose **Code → Download ZIP**, extract all files and open `START.html`
-from the extracted folder, then choose English. An HTML file opened on GitHub
-is displayed as source; use the local folder to open the guide and application.
-This download is for orientation and trying the application.
+**Begin with [START.html](START.html).** GitHub displays an HTML file as source. To use the lessons and application, open the files from the local folder.
 
-**When starting the Git activity:** on the shared source, choose **Use this
-template → Create a new repository**, select your own account and follow the
-group’s visibility instruction. Then clone **your own repository URL** in
-VS Code as explained in S05. Open `START.html` from that clone and continue
-in that copy. This is where you will publish your changes across all three seminars.
+### For reading and trying the application
 
-The guides explain the purpose of each step, what to do and the result you should see.
+1. On the repository page choose **Code → Download ZIP**.
+2. Extract all files and folders from the archive.
+3. Open `START.html` in a browser, then choose **English (UK)**.
+4. On the language page choose the seminar and its interactive lesson or reading version.
 
-- **S05:** take over the project, complete hexadecimal output and publish your first change.
-- **S06:** investigate signed interpretation, check a Gemini explanation and merge the fix.
-- **S07:** complete parity for your assigned variant, check the project from a fresh clone and submit it.
+Keep `START.html`, `LESSONS/`, `GUIDES/` and `PROJECT/` together. A ZIP download lets you read and try the application; it does not provide your project’s Git history.
 
-Use the same personal repository in all three 90-minute seminars.
-For Git work, create your repository from the template shared in the course and clone **your own URL**.
-Extracting an archive lets you open the files but does not replace those steps.
+### When starting Git work in S05
 
-Application: `PROJECT/index.html`. Tests: `PROJECT/tests.html`.
-Keep `PROJECT/`, `GUIDES/` and `START.html` in the same folder.
-No local server, npm or additional libraries are required.
-Tests run locally; they do not imply an automatic test result on GitHub.
+1. On the [shared BBS-bit-byte-starter template](https://github.com/antonioclim/BBS-bit-byte-starter), choose **Use this template → Create a new repository**.
+2. Select your own account and follow your group’s instructions for the name and visibility.
+3. Clone **your own repository URL** in VS Code. Detailed steps are in the S05 lesson.
+4. Open `START.html` from your clone and continue in the same repository throughout S05–S07.
 
-Maximum contribution: Q05 **0.20**, Q06 **0.30**, Q07 **0.50**, totalling **1 mark**.
-Quizzes are individual, without AI or help from classmates; the common reference sheet is allowed.
-The final Moodle assignment is compulsory, submitted as online text and has no separate grade.
-Submitting it is not a condition for access to Q07.
-Quizzes assess understanding. A score or a submitted URL alone does not certify the implementation.
+**If you have already started the project**, retain your personal repository, commits and notes. Do not replace it or create another template-derived repository to obtain the new lessons. You can read them separately from the complete archive. A `pull` from your own repository retrieves changes published there without automatically importing later changes to the template.
+
+### The route
+
+- **S01:** number bases, binary operations and representation limits.
+- **S02:** signed numbers, fixed point and normal binary32 numbers.
+- **S03:** parity, Hamming and CRC, including each check’s limits.
+- **S04:** Boolean logic and a short architecture introduction.
+- **S05:** take over the project, complete hexadecimal output, test and publish your first change.
+- **S06:** formulate a hypothesis, check a Gemini explanation or the prepared alternative and integrate the fix.
+- **S07:** individually implement your assigned parity mode, verify the version from a fresh clone of your own repository and complete the final record.
+
+Complete lessons are in [LESSONS/EN_GB](LESSONS/EN_GB/index.html). [GUIDES/EN_GB](GUIDES/EN_GB/index.html) contains quick guides to the same S05–S07 steps and the common reference sheet. Quick guides do not add activities or requirements.
+
+Application: [PROJECT/index.html](PROJECT/index.html?lang=en). Tests: [PROJECT/tests.html](PROJECT/tests.html?lang=en&stage=baseline). Start with **baseline**, then choose the current stage. The starter has two functions to complete and the problem investigated in S06; incomplete results in future stages are intentional. No local server, npm or additional libraries are required. Local results are not automatically submitted to Moodle.
+
+### S05–S07 assessment
+
+Q05: **10 minutes, maximum 0.20 real points**. Q06: **10 minutes, maximum 0.30**. Q07: **15 minutes, maximum 0.50**. The total is **at most one real point**, for S05–S07 only. This package introduces no new marks for S01–S04.
+
+Quizzes are individual, without AI or help from classmates. Only the shared reference sheet announced in the course is permitted; close the extended lesson and working tools. The final **ten-field record** is submitted in Moodle as **online text**, is compulsory and has no separate grade. Submission, completeness or approval of the record is not a condition for access to Q07. Follow the windows announced in the course.
+
+Quizzes assess understanding. A score or submitted URL alone does not certify the implementation and reproduction of the project.
+
+**Versions:** v2.0.0 is the edition of the whole repository. Each lesson retains its own version in its filename. Quick guides retain the v0.4.0 reference to the original project; this is not an instruction to download an earlier edition.
