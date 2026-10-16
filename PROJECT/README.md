@@ -2,39 +2,39 @@
 
 ## Română
 
-Aplicaţia arată cum reprezentăm un octet şi cum interpretăm aceiaşi biţi.
-Foloseşti acelaşi repository propriu în cele trei seminarii.
+Aplicația ilustrează reprezentarea unui octet și interpretarea aceleiași succesiuni de biți în mai multe moduri.
+Veți lucra în același repository personal pe parcursul celor trei seminarii.
 
-### Pornire din această copie
+### Cum porniți aplicația din această copie
 
-1. Deschide folderul repository-ului clonat în VS Code. În Explorer vezi direct `PROJECT`, `GUIDES` şi `START.html`.
-2. Din File Explorer / Finder, deschide `PROJECT/index.html` în browser. Dacă vezi cod HTML în editor, ai deschis fişierul pentru editare, nu aplicaţia.
-3. Introdu un întreg zecimal între 0 şi 255. Rezultatele se actualizează când schimbi intrarea; aplicaţia nu are un buton Run.
-4. Deschide separat `PROJECT/tests.html`. Selectează etapa curentă şi apasă butonul de rulare. Pentru S07 selectează şi varianta even / odd atribuită.
-5. După ce modifici şi salvezi un fişier JavaScript, reîncarcă paginile aplicaţiei şi testelor. Browserul nu preia automat codul nou din editor.
+1. Deschideți în VS Code folderul în care ați clonat repository-ul. În panoul Explorer trebuie să apară direct `PROJECT`, `GUIDES` și `START.html`.
+2. Din File Explorer sau Finder, deschideți `PROJECT/index.html` într-un browser. Dacă vedeți codul HTML în editor, fișierul este deschis pentru editare; pentru a utiliza aplicația, deschideți-l în browser.
+3. Introduceți un număr întreg în baza zece, cuprins între 0 și 255. Rezultatele se actualizează la modificarea valorii introduse. Aplicația nu are un buton Run.
+4. Deschideți separat `PROJECT/tests.html`. Selectați etapa curentă și apăsați butonul de rulare a testelor. Pentru S07, selectați și varianta atribuită: paritate pară (even) sau impară (odd).
+5. După ce modificați și salvați un fișier JavaScript, reîncărcați atât pagina aplicației, cât și pagina testelor. Browserul nu încarcă automat modificările salvate în editor.
 
-Nu este necesar un server local sau instalarea de biblioteci. Instrucţiunile complete sunt în `../GUIDES/RO/index.html`.
+Nu aveți nevoie de un server local sau de instalarea unor biblioteci. Instrucțiunile complete se găsesc în `../GUIDES/RO/index.html`.
 
-### Ce conţine proiectul iniţial
+### Ce conține proiectul inițial
 
-- Validarea intrării, conversia binară şi numărarea biţilor 1 sunt furnizate.
-- `toHex8(u)` se completează în S05: exact două caractere hexazecimale majuscule, de exemplu 5 → `05`.
-- `asSigned8(u)` conţine defectul investigat în S06. Un test eşuat în această etapă poate fi dovada problemei pe care o cercetezi.
-- `parityBit8(u, mode)` se completează în S07 pentru **modul atribuit**, A = even (pară) sau B = odd (impară).
-- Intrările valide sunt întregi zecimale între 0 şi 255 inclusiv. Spaţiile de la margini şi zerourile iniţiale sunt acceptate; de exemplu ` 005 ` înseamnă 5.
-- Paritatea se adaugă la dreapta: opt biţi de date şi un bit suplimentar. Şirul transmis are nouă biţi.
+- Validarea datelor de intrare, conversia în baza doi și numărarea biților cu valoarea 1 sunt deja implementate.
+- Completați `toHex8(u)` în S05. Funcția trebuie să returneze exact două caractere hexazecimale, cu litere majuscule; de exemplu, pentru 5, rezultatul este `05`.
+- `asSigned8(u)` conține eroarea introdusă în scop didactic pe care o investigați în S06. Un test eșuat poate evidenția tocmai problema cercetată.
+- Completați `parityBit8(u, mode)` în S07 pentru **varianta atribuită**: A = paritate pară (even), B = paritate impară (odd).
+- Sunt acceptate numere întregi în baza zece, cuprinse între 0 și 255 inclusiv. Spațiile de la începutul și sfârșitul intrării, precum și zerourile de la începutul numărului, sunt acceptate. De exemplu, ` 005 ` reprezintă valoarea 5.
+- Bitul de paritate se adaugă la dreapta celor opt biți de date. Șirul transmis conține astfel nouă biți.
 
-La început rulezi **baseline**. S05, S06 şi S07 includ şi verificările etapelor anterioare; funcţiile viitoare nu trebuie să fie complete înainte de seminarul lor.
+La început, rulați verificările codului de bază furnizat, alegând **Codul de bază furnizat** (baseline). Testele S05, S06 și S07 includ verificările etapelor anterioare. Funcțiile prevăzute pentru un seminar ulterior pot rămâne necompletate până la acel seminar.
 
 ### Progresul meu — completez după verificare
 
-- [ ] S05: hexazecimal pe două caractere, teste, commit şi push.
-- [ ] S06: ipoteză proprie, Gemini sau răspunsul de rezervă, testul afirmaţiei, remediere, PR integrat şi copia locală main actualizată.
-- [ ] S07: varianta **[A / B]**, trei teste proprii, commit final, push, clonă nouă şi depunere Moodle.
+- [ ] S05: conversie hexazecimală pe două caractere, teste, înregistrarea modificărilor (commit) și trimiterea lor în repository-ul de pe GitHub (push).
+- [ ] S06: ipoteză proprie, consultarea Gemini sau a răspunsului de rezervă, verificarea unei afirmații printr-un test, remediere, integrarea cererii de modificare (pull request, PR) și actualizarea copiei locale a ramurii main.
+- [ ] S07: varianta **[A / B]**, trei teste proprii, commit final, push, verificare dintr-o clonă nouă și predare în Moodle.
 
-Instrucţiuni suplimentare sau limitări ale versiunii mele: **[completez scurt]**.
-Sursa proiectului, adresa şablonului: **[completez URL-ul comunicat în curs]**.
-Completez însemnările din `evidence.md` pe parcurs. Copiez SHA-ul final numai în Moodle, după ultimul commit şi push.
+Instrucțiuni suplimentare sau limitări ale versiunii mele: **[completez pe scurt]**.
+Adresa șablonului din care am creat proiectul: **[completez URL-ul comunicat în curs]**.
+Completez `evidence.md` pe parcursul lucrului. Copiez identificatorul SHA al commitului final numai în Moodle, după ultimul commit și push.
 
 ## English (UK)
 

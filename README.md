@@ -1,50 +1,52 @@
-# BTI · Bit & Byte Lab · S01–S07 · v2.0.2
+# BTI · Bit & Byte Lab · S01–S07 · v2.0.3
 
 ## Română
 
-Acest pachet pentru studenții din anul I, semestrul I, ASE București, Facultatea CSIE, reunește parcursul complet al celor **șapte seminarii de 90 de minute**, în română și engleză. Disciplina are 14 cursuri și un seminar la două săptămâni didactice; datele grupei sunt publicate în Moodle.
+Acest pachet reunește materialele celor **șapte seminarii de câte 90 de minute** ale disciplinei Bazele tehnologiei informației, pentru anul I, semestrul I, ASE București, Facultatea CSIE. Lecțiile sunt disponibile în română și engleză britanică. Disciplina cuprinde 14 cursuri și un seminar la două săptămâni de activitate didactică; datele grupei sunt comunicate în Moodle.
 
-**Punctul de pornire este [START.html](START.html).** Pe GitHub, un fișier HTML este afișat ca sursă. Pentru a folosi lecțiile și aplicația, deschide fișierele din folderul local.
+**Începeți cu [START.html](START.html).** Pentru a utiliza lecțiile și aplicația, deschideți fișierele din copia locală a pachetului. În interfața GitHub, fișierele HTML sunt afișate ca sursă.
 
-### Pentru citire și încercarea aplicației
+Ediția v2.0.3 reunește revizia în limba română și sincronizarea materialelor S01–S07, pregătite pornind de la sursa v2.0.2. Pentru o copie fixă a ediției, folosiți pagina Releases și arhiva Source code (zip) aferentă tagului v2.0.3, după publicarea acestuia. Code → Download ZIP descarcă starea curentă a ramurii afișate. Materialele și intervalele comunicate în Moodle rămân reperele grupei.
 
-1. În pagina repository-ului alegi **Code → Download ZIP**.
-2. Extragi toate fișierele și folderele din arhivă.
-3. Deschizi `START.html` în browser, apoi alegi **Română**.
-4. Din pagina limbii alegi seminarul și lecția interactivă sau varianta pentru citire.
+### Consultarea lecțiilor și utilizarea aplicației
 
-Păstrează împreună `START.html`, `LESSONS/`, `GUIDES/` și `PROJECT/`. Descărcarea ZIP permite citirea și încercarea aplicației; nu oferă istoricul Git al proiectului tău.
+1. În pagina repository-ului, alegeți **Code → Download ZIP**.
+2. Extrageți toate fișierele și directoarele arhivei.
+3. Deschideți `START.html` în browser și alegeți **Română**.
+4. Selectați seminarul, apoi lecția interactivă sau varianta pentru lectură.
 
-### Când începi lucrul cu Git în S05
+Păstrați împreună `START.html`, `LESSONS/`, `GUIDES/` și `PROJECT/`, pentru a menține legăturile dintre fișiere. Arhiva ZIP permite consultarea materialelor și utilizarea aplicației; istoricul Git al proiectului propriu se obține prin clonare.
 
-1. Din [șablonul comun BBS-bit-byte-starter](https://github.com/antonioclim/BBS-bit-byte-starter) alegi **Use this template → Create a new repository**.
-2. Selectezi contul tău și urmezi indicația grupei pentru nume și vizibilitate.
-3. Clonezi în VS Code **adresa repository-ului tău**. Pașii detaliați sunt în lecția S05.
-4. Deschizi `START.html` din clona ta și continui în același repository în S05–S07.
+### Începerea activității cu Git în S05
 
-**Dacă ai început deja proiectul**, păstrează repository-ul propriu, commiturile și însemnările. Nu îl înlocui și nu crea un alt repository din șablon pentru a primi lecțiile noi. Le poți citi separat din arhiva completă. Un `pull` din repository-ul tău preia modificările publicate acolo, fără a aduce automat schimbările ulterioare ale șablonului.
+1. Deschideți [șablonul comun BBS-bit-byte-starter](https://github.com/antonioclim/BBS-bit-byte-starter) și alegeți **Use this template → Create a new repository**.
+2. Selectați contul propriu și respectați instrucțiunile grupei privind numele și vizibilitatea repository-ului.
+3. Clonați în VS Code **adresa repository-ului propriu**. Lecția S05 explică fiecare pas.
+4. Deschideți `START.html` din clona creată și continuați în același repository pe parcursul S05–S07.
 
-### Parcursul
+**Dacă ați început deja proiectul**, păstrați repository-ul propriu, commiturile și însemnările. Pentru a consulta lecțiile actualizate, folosiți separat arhiva completă. Păstrați proiectul existent, fără a-l înlocui sau a crea un alt repository din șablon. Operația `pull` preia modificările publicate în repository-ul propriu; actualizările ulterioare ale șablonului se consultă separat.
 
-Planurile de lucru sunt estimări care urmează să fie verificate cu grupele. La S01–S04, cele 10 minute ale quizului sunt incluse în cele 90 de minute; pentru explicații și exersare rămân 80 de minute. Intervalul quizului este cel anunțat în Moodle. Cazurile proprii și indiciile se folosesc în etapele existente, fără teme obligatorii suplimentare.
+### Parcursul celor șapte seminarii
+
+Planurile de lucru sunt estimări didactice, care urmează să fie verificate cu grupele. În S01–S04, cele 10 minute ale testului sunt incluse în cele 90 de minute ale seminarului; pentru explicații și exersare rămân 80 de minute. Respectați intervalul anunțat în Moodle. Exemplele proprii și indiciile sunt integrate în activitățile prevăzute, fără teme obligatorii suplimentare.
 
 - **S01:** baze de numerație, operații binare și limitele reprezentării.
-- **S02:** numere cu semn, virgulă fixă și numere normale binary32.
-- **S03:** paritate, Hamming și CRC, cu limitele fiecărui control.
-- **S04:** logică booleană și o introducere scurtă în arhitectură.
-- **S05:** preiei proiectul, completezi afișarea hexazecimală, verifici și publici prima modificare.
-- **S06:** formulezi o ipoteză, verifici o explicație Gemini sau alternativa pregătită și integrezi remedierea.
-- **S07:** implementezi individual paritatea atribuită, verifici versiunea dintr-o clonă nouă a repository-ului tău și completezi fișa finală.
+- **S02:** numere cu semn, reprezentare în virgulă fixă și numere normale în formatul binary32.
+- **S03:** paritate, Hamming și CRC, cu explicarea limitelor fiecărei metode de verificare.
+- **S04:** logică booleană și elemente introductive de arhitectură a calculatoarelor.
+- **S05:** preluarea proiectului, completarea afișării hexazecimale, testarea și publicarea primei modificări.
+- **S06:** formularea unei ipoteze, verificarea unei explicații oferite de Gemini sau de alternativa pregătită și integrarea remedierii.
+- **S07:** implementarea individuală a parității atribuite, verificarea versiunii într-o clonă separată a repository-ului propriu și completarea fișei finale.
 
-Lecțiile complete se află în [LESSONS/RO](LESSONS/RO/index.html). [GUIDES/RO](GUIDES/RO/index.html) conține ghidurile rapide pentru aceiași pași S05–S07 și fișa comună de referință. Ghidurile rapide nu adaugă activități sau cerințe noi.
+Lecțiile complete se găsesc în [LESSONS/RO](LESSONS/RO/index.html). În [GUIDES/RO](GUIDES/RO/index.html) sunt disponibile ghidurile rapide pentru aceleași activități S05–S07 și fișa comună de referință. Aceste ghiduri facilitează consultarea pașilor, fără a introduce activități sau cerințe suplimentare.
 
-Aplicație: [PROJECT/index.html](PROJECT/index.html?lang=ro). Teste: [PROJECT/tests.html](PROJECT/tests.html?lang=ro&stage=baseline). Începi cu **baseline**, apoi alegi etapa curentă. Proiectul inițial are două funcții de completat și problema investigată în S06; rezultatele incomplete din etapele viitoare sunt intenționate. Nu sunt necesare un server local, npm sau biblioteci suplimentare. Rezultatele locale nu sunt trimise automat în Moodle.
+Deschideți [aplicația](PROJECT/index.html?lang=ro) și [pagina testelor](PROJECT/tests.html?lang=ro&stage=baseline). Selectați mai întâi **baseline**, apoi etapa curentă. Proiectul inițial conține două funcții de completat și defectul investigat în S06; funcțiile prevăzute pentru etapele următoare sunt intenționat incomplete. Aplicația se utilizează local, fără server, npm sau biblioteci suplimentare. Rezultatele locale nu se transmit automat în Moodle.
 
 ### Evaluarea S01–S07
 
-Cele șapte quizuri din Moodle valorează împreună **maximum trei puncte reale**: Q01–Q04 contribuie cu maximum două puncte, iar Q05–Q07 cu maximum un punct. **Q01, Q02, Q03 și Q04 au fiecare 11 întrebări, durează 10 minute și valorează maximum 0,50 puncte reale.**
+Cele șapte teste Moodle contribuie împreună cu **maximum trei puncte de seminar**: maximum două puncte din Q01–Q04 și maximum un punct din Q05–Q07. **Q01, Q02, Q03 și Q04 au fiecare 11 întrebări, o durată de 10 minute și o contribuție de maximum 0,50 puncte de seminar.**
 
-| Activitate | Durată | Maximum puncte reale |
+| Activitate | Durată | Maximum puncte de seminar |
 | --- | --- | --- |
 | Q01 | 10 minute | 0,50 |
 | Q02 | 10 minute | 0,50 |
@@ -55,13 +57,13 @@ Cele șapte quizuri din Moodle valorează împreună **maximum trei puncte reale
 | Q07 | 15 minute | 0,50 |
 | **Total Q01–Q07** | — | **3,00** |
 
-Întrebările de exersare și verificările locale din lecțiile S01–S04 te ajută să înveți și sunt distincte de quizurile Q01–Q04 din Moodle. Rezultatele locale nu sunt trimise automat în Moodle. Fiecare quiz are propriul interval, comunicat în curs.
+Întrebările de exersare și verificările locale din lecțiile S01–S04 sprijină învățarea și sunt distincte de testele Q01–Q04 din Moodle. Rezultatele locale nu se transmit automat în Moodle. Fiecare test are propriul interval, comunicat în curs.
 
-La Q05, Q06 și Q07 lucrezi individual, fără AI sau ajutorul colegilor. Este permisă numai fișa comună de referință anunțată în curs; lecția extinsă și instrumentele de lucru se închid. Fișa finală cu **zece rubrici** se depune în Moodle ca **text online**, este obligatorie și nu are notă separată. Depunerea, completitudinea sau aprobarea ei nu condiționează accesul la Q07. Urmezi intervalele comunicate în curs.
+La Q05, Q06 și Q07 lucrați individual, fără inteligență artificială (AI) sau ajutorul colegilor. Puteți consulta numai fișa comună de referință anunțată în curs; închideți lecția extinsă și instrumentele de lucru. Fișa finală, cu **zece rubrici**, se depune în Moodle ca **text online**, este obligatorie și nu primește o notă separată. Depunerea, completitudinea sau aprobarea ei nu condiționează accesul la Q07. Respectați intervalele comunicate în curs.
 
-Quizurile verifică înțelegerea. Punctajul sau o adresă depusă nu certifică, singure, implementarea și reproducerea proiectului.
+Testele evaluează înțelegerea. Punctajul obținut sau adresa depusă nu certifică, prin ele însele, implementarea și reproducerea proiectului.
 
-**Versiuni:** v2.0.2 este ediția întregului repository. Numele fișierelor lecțiilor se păstrează pentru ca linkurile existente să funcționeze. Conținutul lor a fost revizuit în ediția v2.0.2; pentru a identifica materialul folosit, notează ediția repository-ului. Ghidurile rapide păstrează reperul v0.4.0 al proiectului inițial; aceasta nu este o instrucțiune de a descărca o ediție veche.
+**Identificarea versiunii:** v2.0.3 identifică această ediție a repository-ului; v2.0.2 este sursa reviziei editoriale. Numele și versiunile din fișierele lecțiilor sunt păstrate pentru compatibilitatea legăturilor și pentru proveniență. Ghidurile rapide păstrează reperul v0.4.0 al proiectului inițial; acesta nu impune descărcarea unei ediții anterioare. Publicarea pe GitHub este confirmată numai de tagul și release-ul create de administrator.
 
 ## English (UK)
 
@@ -124,4 +126,4 @@ In Q05, Q06 and Q07 work individually without AI or help from classmates. Only t
 
 Quizzes assess understanding. A score or submitted URL alone does not certify the implementation and reproduction of the project.
 
-**Versions:** v2.0.2 is the edition of the whole repository. Lesson filenames are retained so that existing links continue to work. Their content has been revised in edition v2.0.2; record the repository edition to identify the material used. Quick guides retain the v0.4.0 reference to the original project; this is not an instruction to download an earlier edition.
+**Versions:** v2.0.3 identifies this repository edition, prepared from the v2.0.2 source and the reviewed Romanian materials. Existing lesson filenames and their version identifiers are retained for compatibility and provenance. Quick guides retain the original project reference v0.4.0; this does not require an earlier download. A fixed copy is available from Releases → v2.0.3 → Source code (zip) once the administrator has published that release. Code → Download ZIP downloads the current state of the displayed branch.

@@ -1,7 +1,7 @@
 (function (global) {
   'use strict';
 
-  // RO: Funcţiile primesc un număr deja validat, nu textul câmpului.
+  // RO: Funcțiile primesc valoarea numerică deja validată, nu textul introdus în câmp.
   // EN: Functions receive a validated number, not the text from the input field.
   function validateByte(u) {
     if (typeof u !== 'number' || !Number.isInteger(u) || u < 0 || u > 255) {
@@ -26,14 +26,14 @@
   function toHex8(u) {
     validateByte(u);
     // S05 TODO: exact two uppercase hexadecimal characters. Example: 5 -> '05'.
-    // S05 TODO: exact două caractere hexazecimale majuscule. Exemplu: 5 -> '05'.
+    // S05 TODO: Returnați exact două caractere hexazecimale, cu litere majuscule. Exemplu: 5 -> '05'.
     return null;
   }
 
   function asSigned8(u) {
     validateByte(u);
     // S06: known teaching defect. Investigate it with boundary tests.
-    // S06: defect didactic declarat. Investigăm prin teste la limită.
+    // S06: Eroare introdusă în scop didactic. Investigați-o prin teste la valorile de la limitele intervalelor.
     return u > 128 ? u - 256 : u;
   }
 
@@ -45,13 +45,13 @@
   function parityBit8(u, mode) {
     validateByte(u);
     if (mode !== 'even' && mode !== 'odd') throw new Error('INVALID_PARITY_MODE');
-    // Helper supplied / Funcţie auxiliară furnizată: countOnes8(u).
+    // Helper supplied / Funcție auxiliară deja implementată: countOnes8(u).
     if (mode === 'even') {
-      // S07 A TODO: return the even-parity bit / bitul pentru paritate pară.
+      // S07 A TODO: return the even-parity bit / returnați bitul pentru paritate pară.
       return null;
     }
     if (mode === 'odd') {
-      // S07 B TODO: return the odd-parity bit / bitul pentru paritate impară.
+      // S07 B TODO: return the odd-parity bit / returnați bitul pentru paritate impară.
       return null;
     }
   }

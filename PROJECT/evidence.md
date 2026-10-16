@@ -1,50 +1,50 @@
 # Însemnări de lucru / Work notes · Bit & Byte Lab
 
-Completează numai secţiunile pentru limba grupei tale. Câteva rânduri sunt suficiente.
+Completați numai secțiunile corespunzătoare limbii grupei. Sunt suficiente câteva rânduri pentru fiecare observație.
 Complete only the sections for your group's language. A few lines are enough.
-Păstrează aici predicţia de dinaintea testului şi concluzia de după el, chiar dacă se contrazic.
+Păstrați atât predicția formulată înaintea testului, cât și concluzia de după test, chiar dacă rezultatele vă contrazic predicția.
 Keep your prediction before the test and your conclusion afterwards, even if they disagree.
 
 ## RO · S05
 
-- Predicţie înainte să rulez (intrare → rezultat aşteptat):
-- Rezultat observat şi comparaţia cu predicţia:
-- Ce am modificat în lab.js şi de ce:
-- Confirmare: modificarea apare în repository-ul meu după push:
+- Predicția mea înaintea rulării testului (intrare → rezultat așteptat):
+- Rezultatul observat și comparația cu predicția:
+- Ce am modificat în lab.js și de ce:
+- Confirmarea că modificarea apare în repository-ul meu după push:
 
-### Ce îmi trebuie ca să reiau lucrul
+### Informații necesare pentru reluarea lucrului
 
-- URL-ul repository-ului meu:
-- Folderul de pe calculator:
-- Etapa încheiată şi ramura:
-- Prima verificare la următorul seminar:
+- Adresa repository-ului meu (URL):
+- Folderul de pe calculator în care lucrez:
+- Etapa încheiată și ramura folosită:
+- Prima verificare pe care o voi face la următorul seminar:
 
 ## RO · S06
 
-- Problema observată (intrare / aşteptat / obţinut):
-- Ipoteza mea înainte să consult Gemini:
-- Am folosit: Gemini / răspunsul didactic de rezervă:
-- O afirmaţie precisă din acel răspuns:
-- Ce prezice afirmaţia pentru testul ales:
-- Testul (intrare / aşteptat / obţinut), înainte şi după remediere dacă este relevant:
-- Concluzia mea: ce susţin rezultatele şi ce nu dovedesc:
-- URL issue:
-- URL pull request:
-- Confirmare: am integrat PR-ul, am revenit pe main şi am făcut pull:
-- Prima verificare la S07:
+- Problema observată (intrare / rezultat așteptat / rezultat obținut):
+- Ipoteza mea înainte de a consulta Gemini:
+- Resursa consultată: Gemini / răspunsul didactic de rezervă:
+- O afirmație precisă din răspunsul consultat:
+- Rezultatul pe care îl prezice această afirmație pentru testul ales:
+- Testul (intrare / rezultat așteptat / rezultat obținut), înainte și după remediere, dacă este relevant:
+- Concluzia mea: ce susțin rezultatele și ce nu pot demonstra:
+- Adresa sesizării (issue):
+- Adresa cererii de modificare (pull request):
+- Confirmarea că am integrat PR-ul, am revenit pe ramura main și am actualizat copia locală prin pull:
+- Prima verificare pe care o voi face în S07:
 
 ## RO · S07
 
-- Varianta atribuită: A (pară / even) / B (impară / odd):
-- Test 1, intrarea 3 (doi biţi 1): rezultat aşteptat / obţinut:
-- Test 2, intrarea 7 (trei biţi 1): rezultat aşteptat / obţinut:
-- Test 3, intrarea invalidă 256: rezultat aşteptat / obţinut:
-- Instrucţiuni de pornire şi limitări relevante (actualizez şi README):
-- Dacă am cerut clarificări AI în S07: ce am folosit şi cum am verificat:
-- Adresa şablonului comun din care am creat repository-ul:
+- Varianta atribuită: A (paritate pară / even) / B (paritate impară / odd):
+- Testul 1, intrarea 3 (doi biți cu valoarea 1): rezultat așteptat / rezultat obținut:
+- Testul 2, intrarea 7 (trei biți cu valoarea 1): rezultat așteptat / rezultat obținut:
+- Testul 3, intrarea invalidă 256: rezultat așteptat / rezultat obținut:
+- Instrucțiuni de pornire și limitări relevante (actualizez și README):
+- Dacă am solicitat clarificări unui instrument de inteligență artificială în S07: ce informații am folosit și cum le-am verificat:
+- Adresa șablonului comun din care am creat repository-ul:
 
-Salvez aceste însemnări înainte de commitul final. După ultimul push, fac verificarea dintr-o clonă nouă.
-SHA-ul final şi rezultatul clonării noi merg în Moodle. Nu introduc SHA-ul propriului commit în acest fişier: editarea lui ar crea o versiune nouă.
+Salvați aceste însemnări înainte de commitul final. După ultimul push, verificați proiectul dintr-o clonă nouă.
+În Moodle, consemnați identificatorul SHA al commitului final și rezultatul verificării din clona nouă. Nu înscrieți în acest fișier identificatorul commitului care îl conține: modificarea fișierului ar necesita un alt commit, cu un alt identificator.
 
 ## EN-GB · S05
 
